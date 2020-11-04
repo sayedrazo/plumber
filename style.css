@@ -1,0 +1,118 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+ header {
+background-image: url(img/hero-bg.jpg);
+background-size: cover;
+background-position: center;
+} 
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+    margin-top: 20px;
+}
+.main-menu{
+    width: 75%;
+    float: right;
+   
+}
+
+ul {float: right;}
+
+ul li {
+
+    list-style: none;
+    float: left;
+}
+
+ul li a {
+    color:#F8F5F9;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding:  20px;
+    display: block;
+    
+}
+.main-menu ul li:last-child a {
+    padding-right: 0;
+}
+ .wraper {
+    clear: both;
+    text-align: center;
+    margin: 225px 0;
+    width: 100%;
+}
+.wraper p{
+ color: #FFE018;
+ letter-spacing: 2px;
+ font-size: 16px;
+ font-family: sans-serif;
+}
+.wraper h1{
+    color: #F8F5F9;
+    font-size: 56px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.call-to-action .box-btn {
+    border: 2px yellow solid;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 12px;
+    margin: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.call-to-action .box-btn {
+   display: inline-block;
+   font-size: 14px;
+   color: #333;
+   font-weight: 700;
+   border: 2px solid #FFE018;
+   padding: 17px 30px;
+   border-radius: 3px;
+   font-family: sans-serif;
+   background-color:#FFE018;
+   transition: .3s;
+}
+.call-to-action .box-btn:hover{
+    background-color: #333333;
+    color: #FFE018;
+}
+.call-to-action .box-btn2{
+     display: inline-block;
+     font-size: 14px;
+     color: #fff;
+     font-weight: 700;
+     border: 2px solid #FFE018;
+     padding: 17px 30px;
+     border-radius: 3px;
+     font-family: sans-serif;
+     text-decoration: none;
+     transition: .3s;
+
+}
+.call-to-action .box-btn2:hover {
+    background-color: #FFE018;
+    color: #333333;
+
+    
+} 
